@@ -1,0 +1,19 @@
+﻿<vm:UserListViewModel
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:vm="clr-namespace:PropertyGuide.WinPhone">
+
+    <vm:UserListViewModel.Users>
+        <vm:UserViewModel UserId="1" FullName="Hector McHector" Email="hector@gmail.com" UserTypeId="1" DateCreated="02/02/2017" PhotoURL="/Assets/people/male1.jpg" />
+        <vm:UserViewModel UserId="1" FullName="Max Colorado" Email="max@gmail.com" UserTypeId="2" DateCreated="02/02/2017" PhotoURL="/Assets/people/male2.jpg" />
+        <vm:UserViewModel UserId="1" FullName="Carlos Waterslide" Email="carlos@gmail.com"  UserTypeId="1" DateCreated="02/02/2017" PhotoURL="/Assets/people/male3.jpg" />
+        <vm:UserViewModel UserId="1" FullName="Hank Fracas" Email="hank@gmail.com" UserTypeId="2" DateCreated="02/02/2017" PhotoURL="/Assets/people/male4.jpg" />
+        <vm:UserViewModel UserId="1" FullName="Paul Corduroy" Email="paul@gmail.com" UserTypeId="1" DateCreated="02/02/2017" PhotoURL="/Assets/people/male5.jpg" />
+        <vm:UserViewModel UserId="1" FullName="Emma Stout" Email="emma@gmail.com" UserTypeId="2" DateCreated="02/02/2017" PhotoURL="/Assets/people/female1.png" />
+        <vm:UserViewModel UserId="1" FullName="Alicia Purple" Email="hector@gmail.com" UserTypeId="1" DateCreated="02/02/2017" PhotoURL="/Assets/people/female2.png" />
+        <vm:UserViewModel UserId="1" FullName="Molly Popper" Email="molly@gmail.com" UserTypeId="2" DateCreated="02/02/2017" PhotoURL="/Assets/people/female3.png" />
+        <vm:UserViewModel UserId="1" FullName="Dina Negroni" Email="dina@gmail.com" UserTypeId="1" DateCreated="02/02/2017" PhotoURL="/Assets/people/female4.png" />
+        <vm:UserViewModel UserId="1" FullName="Helen Porter" Email="helen@gmail.com" UserTypeId="2" DateCreated="02/02/2017" PhotoURL="/Assets/people/female5.png" />
+    </vm:UserListViewModel.Users>
+
+</vm:UserListViewModel>

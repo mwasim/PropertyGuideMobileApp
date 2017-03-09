@@ -1,0 +1,5 @@
+﻿<resources>
+  <style name="Theme.PropertyGuide" parent="android:Theme.Holo.Light">
+    <!-- Customizations go here -->
+  </style>  
+</resources>

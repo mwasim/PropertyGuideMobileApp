@@ -1,0 +1,39 @@
+﻿Emulator does not persists data in the SQLite database
+-------------------------------------------------------
+This is how the windows phone emulator works. Each time emulator starts it cleans all existing user settings, users data etc.
+
+http://stackoverflow.com/questions/26493974/records-not-saving-in-sqlite-database-in-windows-phone-8-1
+
+The solution is to automate the process of adding required data (users or properties etc.) as the application starts.
+
+
+Data Loaded on App Launch:
+---------------------------
+var users = new List<User>
+            {
+                new User {Name = "Hector McHector", Email = "hector@gmail.com", IsSeller = true},
+                new User {Name = "Max Colorado", Email = "max@gmail.com", IsSeller = false},
+                new User {Name = "Carlos Waterslide", Email = "carlos@gmail.com", IsSeller = true},
+                new User {Name = "Hank Fracas",Email = "hank@gmail.com", IsSeller = false},
+                new User {Name = "Paul Corduroy", Email = "paul@gmail.com", IsSeller = true},
+
+                new User {Name = "Emma Stout", Email = "emma@gmail.com", IsSeller = true},
+                new User {Name = "Alicia Purple", Email = "alicia@gmail.com", IsSeller = false},
+                new User {Name = "Molly Popper", Email = "molly@gmail.com", IsSeller = true},
+                new User {Name = "Dina Negroni", Email = "dina@gmail.com", IsSeller = false},
+                new User {Name = "Helen Porter", Email = "helen@gmail.com", IsSeller = true}
+            };
+
+
+Viewing SQLite database in the Isolated Storage:
+-------------------------------------------------
+- Command Prompt
+- CD C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v8.1\Tools\IsolatedStorageExplorerTool
+- ISETool.exe ts xd {9d58dd4f-0dd1-4156-ad59-ca1adf9b9dce} C:\TEMP\MyFiles
+
+{9d58dd4f-0dd1-4156-ad59-ca1adf9b9dce} = App Product ID (Found in Properties/WMAppManifest.xml)
+
+
+Windows Phone Icons
+---------------------
+http://www.flaticon.com/packs/windows-phone-ui

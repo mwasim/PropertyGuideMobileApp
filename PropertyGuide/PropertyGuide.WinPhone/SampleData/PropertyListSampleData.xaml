@@ -1,0 +1,20 @@
+﻿<vm:PropertyListViewModel
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:vm="clr-namespace:PropertyGuide.WinPhone">
+
+    <vm:PropertyListViewModel.Items>
+        <vm:PropertyViewModel PropertyName="Property 2" PropertyDescription="Description here" />
+        <vm:PropertyViewModel PropertyName="Property 3" PropertyDescription="Description here" />
+        <vm:PropertyViewModel PropertyName="Property 4" PropertyDescription="Description here" />
+        <vm:PropertyViewModel PropertyName="Property 5" PropertyDescription="Description here" />
+        <vm:PropertyViewModel PropertyName="Property 6" PropertyDescription="Description here" />
+        <vm:PropertyViewModel PropertyName="Property 7" PropertyDescription="Description here" />
+        <vm:PropertyViewModel PropertyName="Property 8" PropertyDescription="Description here" />
+        <vm:PropertyViewModel PropertyName="Property 9" PropertyDescription="Description here" />
+        <vm:PropertyViewModel PropertyName="Property 10" PropertyDescription="Description here" />
+        <vm:PropertyViewModel PropertyName="Property 11" PropertyDescription="Description here" />
+        <vm:PropertyViewModel PropertyName="Property 12" PropertyDescription="Description here" />
+    </vm:PropertyListViewModel.Items>
+
+</vm:PropertyListViewModel>

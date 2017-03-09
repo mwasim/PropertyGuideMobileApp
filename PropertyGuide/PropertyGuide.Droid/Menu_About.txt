@@ -1,0 +1,5 @@
+﻿Menu Resource
+https://developer.android.com/guide/topics/resources/menu-resource.html
+
+Resoucr Types
+https://developer.android.com/guide/topics/resources/available-resources.html

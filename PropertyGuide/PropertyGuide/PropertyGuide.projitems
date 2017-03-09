@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>d208d1b1-ba19-4e19-9b83-485571815a0e</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>PropertyGuide</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)BusinessLayer\Contracts\BusinessEntityBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BusinessLayer\Contracts\IBusinessEntity.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BusinessLayer\Managers\AppManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BusinessLayer\Managers\AppManagerAsync.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BusinessLayer\Managers\PropertyManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BusinessLayer\Managers\PropertyManagerAsync.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BusinessLayer\Property.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BusinessLayer\User.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BusinessLayer\UserType.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CommonUtils\Constants.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CommonUtils\Enums.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CommonUtils\Utils.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DataAccessLayer\Contracts\IPropertyRepository.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DataAccessLayer\Contracts\IPropertyRepositoryAsync.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DataAccessLayer\Contracts\IUserRepository.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DataAccessLayer\Contracts\IUserRepositoryAsync.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DataAccessLayer\Contracts\IUserTypeRepository.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DataAccessLayer\Contracts\IUserTypeRepositoryAsync.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DataAccessLayer\PropertyRepository.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DataAccessLayer\PropertyRepositoryAsync.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DataAccessLayer\UserRepository.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DataAccessLayer\UserRepositoryAsync.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DataAccessLayer\UserTypeRepository.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DataAccessLayer\UserTypeRepositoryAsync.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DataLayer\AppDatabase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DataLayer\AppDatabaseAsyncAsync.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DataLayer\Contracts\IAppDatabase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DataLayer\Contracts\IAppDatabaseAsync.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DataLayer\Contracts\IPropertyDatabase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DataLayer\Contracts\IPropertyDatabaseAsync.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DataLayer\Contracts\IUserDatabase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DataLayer\Contracts\IUserDatabaseAsync.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DataLayer\Contracts\IUserTypeDatabase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DataLayer\Contracts\IUserTypeDatabaseAsync.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DataLayer\PropertyDatabase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DataLayer\PropertyDatabaseAsync.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DataLayer\UserDatabase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DataLayer\UserDatabaseAsync.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DataLayer\UserTypeDatabase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DataLayer\UserTypeDatabaseAsync.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Flickr\Contracts\BindableBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Flickr\Contracts\IFlickrRequest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Flickr\FlickrManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Flickr\FlickrRequest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Flickr\SearchResultItem.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Infrastructure\IoCContainer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="$(MSBuildThisFileDirectory)BusinessLayer\About.txt" />
+    <Content Include="$(MSBuildThisFileDirectory)DataAccessLayer\About.txt" />
+    <Content Include="$(MSBuildThisFileDirectory)DataLayer\About.txt" />
+  </ItemGroup>
+</Project>

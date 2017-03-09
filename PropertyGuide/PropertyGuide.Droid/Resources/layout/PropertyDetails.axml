@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+    <TextView
+        android:text="Name"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/NameLabel" />
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtName"
+        android:imeOptions="actionNext"
+        android:maxLines="1"
+        android:layout_marginBottom="12dp"
+        android:hint="Name"
+        android:text="&lt; task &gt;" />
+    <TextView
+        android:id="@+id/DescLabel"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Description:"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtName"
+        android:layout_marginTop="12dp" />
+    <EditText
+        android:inputType="textMultiLine"
+        android:id="@+id/txtDesc"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/DescLabel"
+        android:gravity="top|left"
+        android:lines="8"
+        android:minLines="4"
+        android:maxLines="8"
+        android:scrollbars="vertical"
+        android:imeOptions="actionDone"
+        android:hint="Description" />
+</LinearLayout>
