@@ -26,13 +26,7 @@ WinPhone Technical Implementation Details
 7.2. Use of Localization (at the moment only one AppResources file, further culture based resources can be added)
 8. Generating unique random numbers in very short range (e.g. 1 to 10). Used to randomly assign images to properties (or users) for testing purposes only.
 9. Use of Github source control
-10. Continuous Integration (CI) using Teamcity [Automatic Builds]
-11. Use of SOLID principles
-S – Single-responsiblity principle (A class should only one job, e.g. User, FlickrRequest etc.)
-O – Open-closed principle (entities open for extension, closed for modification, e.g. BindableBase)
-L – Liskov substitution principle (sub class substitutable for base class, e.g. BusinessEntityBase)
-I – Interface segregation principle (A client should implement the interface required, e.g. IFlickrRequest)
-D – Dependency Inversion Principle (Entities must depend on abstractions, high level modules should not depend on low level modules but they should depend on abstractions.)
+10. Use of SOLID principles
 
 Xamarin.Android Features:
 -------------------------
@@ -49,13 +43,8 @@ Xamarin.Android Technical Details:
 4. Use of custom property list adapter to display list of properties in the listview.
 5. Custom Menu, Styles and theme.
 6. Use of Github source control
-7. Continuous Integration (CI) using Teamcity [Automatic Builds]
-8. Use of SOLID principles
-S – Single-responsiblity principle (A class should only one job, e.g. User, FlickrRequest etc.)
-O – Open-closed principle (entities open for extension, closed for modification, e.g. BindableBase)
-L – Liskov substitution principle (sub class substitutable for base class, e.g. BusinessEntityBase)
-I – Interface segregation principle (A client should implement the interface required, e.g. IFlickrRequest)
-D – Dependency Inversion Principle (Entities must depend on abstractions, high level modules should not depend on low level modules but they should depend on abstractions.)
+7. Use of SOLID principles
+
 
 Xamarin.iOS Features:
 ---------------------
@@ -71,13 +60,7 @@ Xamarin.iOS Technical Details:
 3. Use of shared project ready to be used accross Windows Phone, Xamarin.Android and Xamarin.iOS projects
 4. Use of MonoTouch.Dialog Reflection (/Elements) API for developing screens.
 5. Use of Github source control
-6. Continuous Integration (CI) using Teamcity [Automatic Builds]
-7. Use of SOLID principles
-S – Single-responsiblity principle (A class should only one job, e.g. User, FlickrRequest etc.)
-O – Open-closed principle (entities open for extension, closed for modification, e.g. BindableBase)
-L – Liskov substitution principle (sub class substitutable for base class, e.g. BusinessEntityBase)
-I – Interface segregation principle (A client should implement the interface required, e.g. IFlickrRequest)
-D – Dependency Inversion Principle (Entities must depend on abstractions, high level modules should not depend on low level modules but they should depend on abstractions.)
+6. Use of SOLID principles
 
 
 WinPhone Helpful links
