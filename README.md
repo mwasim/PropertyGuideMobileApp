@@ -61,9 +61,3 @@ Xamarin.iOS Technical Details:
 4. Use of MonoTouch.Dialog Reflection (/Elements) API for developing screens.
 5. Use of Github source control
 6. Use of SOLID principles
-
-
-WinPhone Helpful links
-----------------------
-Isolated Storage Explorer,
-https://code.msdn.microsoft.com/windowsapps/WindowsPhone-Working-with-959fb13b
